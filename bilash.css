@@ -1,0 +1,97 @@
+
+   .div{
+       position: absolute;
+       top:40%;
+       left:40%;
+       display: flex;
+   }
+   .div1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: red;
+        transition: width 2s linear;
+        border-radius: 50px;
+        position: absolute;
+        top: 0;
+  }
+
+  
+  @keyframes div1 {
+    0%   {background-color: yellow;}
+    25%  {background-color: cyan;}
+    50%  {background-color: green;}
+    100% {background-color: red;}
+  }
+  
+  
+  
+  .div2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: yellow;
+    transition: height 2s linear;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -150px;
+  }
+
+
+  @keyframes div2 {
+    0%   {background-color: cyan;}
+    25%  {background-color: green;}
+    50%  {background-color: red;}
+    100% {background-color: yellow;}
+  }
+  
+  .div3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: green;
+    transition: height 2s linear;
+    border-radius: 50px;
+    left: 150px;
+    position: absolute;
+  }
+
+  
+  @keyframes div3 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: cyan;}
+    100% {background-color: green;}
+  }
+  
+  .div4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: cyan;
+    transition: width 2s linear;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0;
+    right: -200px;
+    top: 100px;
+
+  }
+  
+  @keyframes div4 {
+    0%   {background-color: green;}
+    25%  {background-color: red;}
+    50%  {background-color: yellow;}
+    100% {background-color: cyan;}
+  }
+  
+    .button{
+        display:flex;
+        position: absolute;
+        top: 65%;
+        left: 45%;
+    }
+  
+   .button1{
+      margin-right:20px;
+   }
